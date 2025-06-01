@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Crun4ch</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+  <style>
+    body {
+      background-color: #0a0f2c;
+      color: white;
+      font-family: 'Poppins', sans-serif;
+      text-align: center;
+      margin: 0;
+      padding: 0;
+      position: relative;
+      min-height: 100vh;
+    }
+
+    .avatar {
+      margin-top: 30px;
+      width: 150px;
+      height: 150px;
+      border-radius: 50%;
+      object-fit: cover;
+      box-shadow: 0 0 30px #9246ff;
+    }
+
+    h1 {
+      margin-top: 20px;
+      font-size: 36px;
+      text-shadow: 0 0 15px rgba(255, 255, 255, 0.6);
+    }
+
+    .button-list {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-top: 30px;
+      gap: 15px;
+      padding-bottom: 80px;
+    }
+
+    .link-button {
+      display: inline-flex;
+      align-items: center;
+      text-decoration: none;
+      color: white;
+      font-size: 20px;
+      font-weight: 600;
+      padding: 8px 16px;
+      border-radius: 50px;
+      transition: transform 0.2s ease, box-shadow 0.3s ease;
+      max-width: 80vw;
+      min-width: 220px;
+      text-shadow: 0 0 10px rgba(255, 255, 255, 0.9);
+    }
+
+    .link-button:hover {
+      transform: scale(1.05);
+      box-shadow: 0 0 40px rgba(255,255,255,0.5);
+    }
+
+    .link-button img {
+      height: 48px;
+      width: 48px;
+      border-radius: 50%;
+      margin-right: 12px;
+      object-fit: cover;
+    }
+
+    .donate    { background-color: #1f1f1f; box-shadow: 0 0 25px #1f1f1f; }
+    .twitch    { background-color: #9246ff; box-shadow: 0 0 25px #9246ff; }
+    .youtube   { background-color: #fe0000; box-shadow: 0 0 25px #fe0000; }
+    .telegram,
+    .privatka,
+    .predlozhka { background-color: #1e8cc0; box-shadow: 0 0 25px #1e8cc0; }
+    .boosty    { background-color: #f06f2a; box-shadow: 0 0 25px #f06f2a; }
+    .discord   { background-color: #5664f8; box-shadow: 0 0 25px #5664f8; }
+    .afk       { background-color: #fec700; box-shadow: 0 0 25px #fec700; }
+
+    .donate { order: -1; }
+
+    .footer {
+      position: absolute;
+      bottom: 5px;
+      left: 10px;
+      font-size: 12px;
+      color: rgba(255, 255, 255, 0.3);
+      text-shadow: 0 0 6px #9246ff;
+      font-family: 'Poppins', sans-serif;
+    }
+  </style>
+</head>
+<body>
+
+  <img src="images/Avatarka.png" alt="Аватарка" class="avatar">
+  <h1>Crun4ch</h1>
+
+  <div class="button-list">
+    <a href="https://www.donationalerts.com/r/crun4ch" class="link-button donate">
+      <img src="images/Knopka9.png" alt="Донат"> Донат
+    </a>
+    <a href="https://www.twitch.tv/crun4chthebest" class="link-button twitch">
+      <img src="images/Knopka1.png" alt="Твич"> Твич
+    </a>
+    <a href="https://youtube.com/@crun4ch" class="link-button youtube">
+      <img src="images/Knopka2.png" alt="Ютуб"> Ютуб
+    </a>
+    <a href="https://t.me/Crun4Ch" class="link-button telegram">
+      <img src="images/Knopka3.png" alt="Телеграм"> Телеграм
+    </a>
+    <a href="https://web.tribute.tg/l/6i" class="link-button privatka">
+      <img src="images/Knopka4.png" alt="Приватка"> Приватка
+    </a>
+    <a href="https://t.me/Crun4ch_bot" class="link-button predlozhka">
+      <img src="images/Knopka5.png" alt="Предложка"> Предложка
+    </a>
+    <a href="https://boosty.to/crun4ch1" class="link-button boosty">
+      <img src="images/Knopka6.png" alt="Бусти"> Бусти
+    </a>
+    <a href="https://discord.gg/gX8WfusxGH" class="link-button discord">
+      <img src="images/Knopka7.png" alt="Дискорд"> Дискорд
+    </a>
+    <a href="https://www.twitch.tv/crun4chafk" class="link-button afk">
+      <img src="images/Knopka8.png" alt="АФК Канал"> АФК Канал
+    </a>
+  </div>
+
+  <div class="footer">Сделано Кедмиумом</div>
+
+</body>
+</html>
